@@ -5,21 +5,83 @@
   <meta charset="UTF-8"> <!--definir o tipo de caracteres compatível com o site, assim não tendo problema com acentuação-->
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--possibilita a compatibilidade para o Internet Explorer a partir da versão mais recente do site na versão do Edge-->
   <meta name="viewport" content="width=device-width, initial-escale=1.0"> <!--permitirá que o site se adapte a proporção da tela do usuário-->
-  <meta name="description" content="site para a disciplina INTW"> <!--descreverá o site-->
-  <meta name="keywords" content="site INTW, INTW, disciplina, html, CSS"> <!--define as palavras chaves do site, facilitando a busca dos navegadores-->
+  <meta name="description" content="NuMusicDream"> <!--descreverá o site-->
+  <meta name="keywords" content="musica, instrumentos, albuns"> <!--define as palavras chaves do site, facilitando a busca dos navegadores-->
   <meta name="author" content="Daniel Francisco"> <!--define o nome do autor do site-->
   
   <link rel="stylesheet" href="estilo.css">
-  <title>site para a disciplina INTW</title>
+  <title>NuMusicDream</title>
 </head>
 <body>
-  <!--a tag <b></b> é uma tag em realça o texto com negrito-->
-  <!--a tag <strong></strong> é uma tag que além de realçar, vai dizer ao navegador que aquela parte é importante-->
-  <h1>site para a disciplina INTW</h1>
-  <p>página com conteúdo em <b>html, CSS e Javascript</b></p>
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-     Suscipit provident <strong>ad accusamus iusto laudantium</strong> enim fuga
-      nulla quod amet fugiat quae tenetur, facere rerum? Nulla
-      corrupti debitis fuga quae tempore.</p>
+  <div class="navbar">
+    <div class="header-inner-content show-menu">
+      <div style="display: flex; flex-direction: column;">
+      <h1 class="logo">NuMusic<span>Dream</span></h1>
+      <h2 style="font-size: 17px;">Descobra a sua Nova Música favorita e os seus Sonhos</h2>
+      </div>
+      <nav>
+        <ul>
+          <a href="index.html">
+          <li>Home</li>
+          </a>
+          <a href="SobreNos.html">
+          <li>Sobre</li>
+          </a>
+          <a href="contato.html">
+          <li>Contato</li>
+          </a>
+          <a href="LoginNuMusicDream.html">
+          <li>Conta</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="nav-icon-conteiner">
+        <img src="img/cart.png">
+        <img src="img/menu.png" class="menu-button">
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="header-inner-content">
+        <div class="header-botton-side">
+            <div class="header-botton-side-left">
+                <h2>Um Som a Mais Nunca é Demais</h2>
+                <p>
+                    A Harmonia Vem Sempre Da Conexão Do Ser Humano Com a Música, e Do Instrumento Certo.
+                </p>
+                <button>Ver Agora &#8594;</button>
+            </div>
+            <div class="header-botton-side-right">
+              <img src="img/guitarra.png" >
+            </div>
+        </div>
+    </div>
+  </header>
+
+
+  <hr>
+  <div style="width: 100%; height: 55%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+    <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: row; gap: 25px;">
+    <!--<a href="compras.html">-->
+      <button style="width: 30%; height: 50%; background-image: url(img/images.jpg); color: rgb(255, 255, 255); color: rgb(200, 200, 200); text-shadow: 0 0 10px #000000, 0 0 20px rgb(0, 0, 0); font-weight: bold;">
+        <span class="texto-botao">Instrumentos</span>
+      </button>
+    <!--</a>-->
+    <br>
+    <!--<a href="compras.html">-->
+      <button style="width: 30%; height: 50%; background-image: url(img/albuns.jpg); color: rgb(255, 255, 255); color: rgb(200, 200, 200); text-shadow: 0 0 10px #000000, 0 0 20px rgb(0, 0, 0); font-weight: bold;">
+        <span class="texto-botao">Albuns</span>
+      </button>
+    <!--</a>-->
+    <br>
+    <!--<a href="compras.html">-->
+      <button style="width: 30%; height: 50%; background-image: url(img/outros.jpg); color: rgb(255, 255, 255); color: rgb(200, 200, 200); text-shadow: 0 0 10px #000000, 0 0 20px rgb(0, 0, 0); font-weight: bold;">
+        <span class="texto-botao">Outros</span>
+      </button>
+    <!--</a>-->
+    <br>
+      </div>
+    </div>
 </body>
 </html>
