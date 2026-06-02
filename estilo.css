@@ -390,7 +390,7 @@ main{
   text-align: center;
 }
 
-@media (max-widht (800px)){
+@media (max-widht: 800px){
   .footer-content{
     display: inline;
     font-size: 0.8rem;
