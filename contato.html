@@ -9,8 +9,8 @@
     <title>SobreNMD</title>
 </head>
 <body>
-  <div class="navbar">
-    <div class="header-inner-content show-menu">
+  <div class="navbar show-menu">
+    <div class="header-inner-content">
       <div style="display: flex; flex-direction: column;">
       <h1 class="logo">NuMusic<span>Dream</span></h1>
       <h2 style="font-size: 17px; color: rgb(200, 200, 200);">Descobra a sua Nova Música favorita e os seus Sonhos</h2>
@@ -46,5 +46,16 @@
     <br><br>
     <address style="display: flex; justify-content: center; height: 700px;">numusicdream@numusicdream.com.br</address>
 </header>
+
+<script>
+  const navbar = document.querySelector(".navbar");
+  const menuButton = document.querySelector(".menu-button");
+
+<!--analisa se: ao clicar no botão de menu a barra de navegação está aberta, se tiver ele fecha, se não ele abre-->
+  menuButton.addEventListener("click", () => {
+    navbar.classList.toggle("show-menu");
+  })
+</script>
+
 </body>
 </html>
