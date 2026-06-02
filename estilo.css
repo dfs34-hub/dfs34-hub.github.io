@@ -332,7 +332,7 @@ main{
   font-weight: bold;
 }
 
-@media (max-widht: 800px){
+@media (max-width: 800px){
   .testimonials{
     flex-direction: column;
   }
