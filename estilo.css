@@ -392,7 +392,8 @@ main{
 
 @media (max-width: 800px){
   .footer-content{
-    display: inline;
+    flex-direction: column;
+    text-align: center;
     font-size: 0.8rem;
   }
 
