@@ -441,9 +441,4 @@ main{
     align-items: center;
     justify-content: center;
   }
-
-  .login-input{
-    display: flex;
-    flex-direction: column;
-  }
 }
