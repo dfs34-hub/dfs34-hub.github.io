@@ -420,23 +420,26 @@ main{
   display: flex;
   flex-direction: column;
   min-height: 10rem;
-  width: 17rem;
+  width: 100%;
+  max-width: 17rem;
   margin-top: auto;
   border-radius: 10px;
   box-shadow: 10px 0px 10px rgb(0, 0, 0);
+  box-sizing: border-box;
 }
 
 .login-input{
   display: block;
   margin: 10px auto;
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   height: 30px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 800px){
   .login{
     padding: 1rem;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
